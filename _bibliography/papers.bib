@@ -11,7 +11,8 @@
   abstract={This paper studies the practicality of the current state-of-the-art unsupervised methods in neural machine translation (NMT). In ten translation tasks with various data settings, we analyze the conditions under which the unsupervised methods fail to produce reasonable translations. We show that their performance is severely affected by linguistic dissimilarity and domain mismatch between source and target monolingual data. Such conditions are common for low-resource language pairs, where unsupervised learning works poorly. In all of our experiments, supervised and semi-supervised baselines with 50k-sentence bilingual data outperform the best unsupervised results. Our analyses pinpoint the limits of the current unsupervised NMT and also suggest immediate research directions.},
   pdf={https://arxiv.org/pdf/2004.10581.pdf},
   slides={EAMT_2020_Oral.pdf},
-  video={https://slideslive.com/38929842/when-and-why-is-unsupervised-neural-machine-translation-useless}
+  video={https://slideslive.com/38929842/when-and-why-is-unsupervised-neural-machine-translation-useless},
+  selected={true}
 }
 
 @inproceedings{kim2019pivot,
@@ -23,7 +24,8 @@
   pages={866--876},
   abstract={We present effective pre-training strategies for neural machine translation (NMT) using parallel corpora involving a pivot language, i.e., source-pivot and pivot-target, leading to a significant improvement in source-target translation. We propose three methods to increase the relation among source, pivot, and target languages in the pre-training: 1) step-wise training of a single model for different language pairs, 2) additional adapter component to smoothly connect pre-trained encoder and decoder, and 3) cross-lingual encoder training via autoencoding of the pivot language. Our methods greatly outperform multilingual models up to +2.6% BLEU in WMT 2019 French-German and German-Czech tasks. We show that our improvements are valid also in zero-shot/zero-resource scenarios.},
   pdf={https://aclanthology.org/D19-1080.pdf},
-  poster={EMNLP_2019_Poster_final.pdf}
+  poster={EMNLP_2019_Poster_final.pdf},
+  selected={true}
 }
 
 @inproceedings{kim2019when,
@@ -37,7 +39,8 @@
   pdf={https://aclanthology.org/D19-6503.pdf},
   slides={DiscoMT_2019_Spotlight.pdf},
   poster={DiscoMT_2019_Poster_final.pdf},
-  code={https://github.com/ducthanhtran/sockeye_document_context}
+  code={https://github.com/ducthanhtran/sockeye_document_context},
+  selected={true}
 }
 
 @inproceedings{graca2019generalizing,
@@ -85,7 +88,8 @@
   abstract={Transfer learning or multilingual model is essential for low-resource neural machine translation (NMT), but the applicability is limited to cognate languages by sharing their vocabularies. This paper shows effective techniques to transfer a pretrained NMT model to a new, unrelated language without shared vocabularies. We relieve the vocabulary mismatch by using cross-lingual word embedding, train a more language-agnostic encoder by injecting artificial noises, and generate synthetic data easily from the pretraining data without back-translation. Our methods do not require restructuring the vocabulary or retraining the model. We improve plain NMT transfer by up to +5.1% BLEU in five low-resource translation tasks, outperforming multilingual joint training by a large margin. We also provide extensive ablation studies on pretrained embedding, synthetic data, vocabulary size, and parameter freezing for a better understanding of NMT transfer.},
   pdf={https://aclanthology.org/P19-1120.pdf},
   poster={poster_acl_2019.pdf},
-  code={https://github.com/yunsukim86/sockeye-transfer}
+  code={https://github.com/yunsukim86/sockeye-transfer},
+  selected={true}
 }
 
 @inproceedings{kim2018improving,
