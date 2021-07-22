@@ -7,7 +7,8 @@ description:  # no one-liner description
 profile:
   align: right
   image: prof_yunsu.jpg
-  address: # >
+  address: <br>
+    # >
     # <p>555 your office number</p>
     # <p>123 your address street</p>
     # <p>Your City, State 12345</p>
